@@ -7,8 +7,35 @@ $size-titulo-principal: 10rem;
 $size-titulo-secundario: 6rem;
 $size-titulo-terciario: 4rem;
 
+// el nombre es el mapa,
+//lo que esta en verde es la llave y 
+//los numeros son el valor
+// map-get: (map, key)
+
 //colores
-$color-primario: rgba(218, 121, 56, 0.61);
-$backgound-pie: rgba(223, 220, 220, 0.61);
-$blanco:  rgba(255, 255, 255, 0.61);
+$colorgris:#a3a4a8;
+$colormarroncito: #bba998;
+$colormarron: #AB876C;
+$colorverdecito: #8BA18B;
+$colorverde:#708970;
+$color_triadro:#897070;
+$color_triadve:#708970;
+$color_triadvi:#707089;
+
+//mapas
+$titulos: (
+        principal: 5rem,
+        secundario: 3rem,
+        terciario: 2.1,
+        normal: 1.5,
+)
+
+//textos
+$texto: (
+  margin-topt: 25px,
+  margin-right: 25px, 
+  margin-bottom: 25px,
+  margin-left: 25px,
+);
+
 

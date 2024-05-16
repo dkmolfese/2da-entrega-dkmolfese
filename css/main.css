@@ -1,99 +1,18 @@
-/*nota que compila*/
-* {
-  margin: 0%;
-  padding: 0%;
-  font-family: "Montserrat", sans-serif;
-  font-size: medium;
-}
+/* Error: expected ";".
+ *    ,
+ * 34 | $texto: (
+ *    |       ^
+ *    '
+ *   sass\reset\_variables.scss 34:7  @import
+ *   sass\main.scss 5:9               root stylesheet */
 
-.container-fluid {
-  --bs-gutter-x:0;
-  --bs-gutter-y:0;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected ";".\a    \2577 \a 34 \2502  $texto: (\d\a    \2502        ^\a    \2575 \a   sass\\reset\\_variables.scss 34:7  @import\a   sass\\main.scss 5:9               root stylesheet';
 }
-
-.menu-list li a {
-  color: black;
-  text-decoration: none;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-}
-
-header img {
-  width: 100%;
-  border-radius: 5px;
-}
-
-.nav-item {
-  font-size: medium;
-  font-weight: 400;
-  font-style: italic;
-  background-color: rgb(235, 226, 196);
-}
-
-.navbar-brand {
-  font-weight: 400;
-  font-style: italic;
-  color: rgb(207, 158, 94);
-}
-
-.tiposdecafe {
-  background-color: rgb(255, 255, 255);
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.nombrec {
-  display: flex;
-  align-items: start;
-}
-
-.subtitulo {
-  display: flex;
-  align-items: center;
-}
-
-.presentacion--another--text {
-  color: darkslategrey;
-  font-style: oblique;
-  font-family: system-ui;
-}
-
-img {
-  width: 40%;
-  border-radius: 15px;
-  margin-top: 5%;
-  margin-bottom: 2%;
-  display: flex;
-  align-items: center;
-}
-
-.imgtiendas {
-  width: 50%;
-  height: auto;
-}
-
-.pie {
-  background-color: black;
-  justify-content: space-evenly;
-  padding: 25px;
-}
-
-.pie_copy {
-  color: azure;
-  font-size: 0.7rem;
-  text-align: center;
-  padding-top: 20px;
-}
-
-@media (max-width: 768px) {
-  .card {
-    width: 240px;
-    margin-bottom: 20px;
-  }
-  .nose {
-    justify-content: end;
-  }
-}
-
-/*# sourceMappingURL=main.css.map */

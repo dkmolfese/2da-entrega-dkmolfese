@@ -16,8 +16,8 @@
     align-items: center;
 }
 
-.presentacion--another--text{
-    color: darkslategrey;
-    font-style: oblique;
-    font-family: system-ui;
+.presentacion__another__text{
+    background-color: $color_triadro;
+    margin: $texto;
 }
+
