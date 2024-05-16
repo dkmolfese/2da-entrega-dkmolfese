@@ -1,9 +1,8 @@
 //MIXINS - sin parametros
 
 @mixin background{
-    background-color: rgb(194, 250, 250);
+    background-color: $colormarroncito;
     height: 50px;
-
 }
 
 @mixin espacios{

@@ -4,13 +4,16 @@
         width: 240px;
         margin-bottom: 20px;
     }
-    .nose{
-        justify-content: end;
-    }
+    
 }
 
 //mobile//
-@media (max-width:768px){
+@media (max-width:430px){
+    .card{
+        width: 240px;
+        margin-bottom: 20px;
+    }
 
 }
+
 

@@ -1,9 +1,9 @@
-/* Error: expected ";".
+/* Error: Undefined variable.
  *    ,
- * 34 | $texto: (
- *    |       ^
+ * 34 | $texto (
+ *    | ^^^^^^
  *    '
- *   sass\reset\_variables.scss 34:7  @import
+ *   sass\reset\_variables.scss 34:1  @import
  *   sass\main.scss 5:9               root stylesheet */
 
 body::before {
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected ";".\a    \2577 \a 34 \2502  $texto: (\d\a    \2502        ^\a    \2575 \a   sass\\reset\\_variables.scss 34:7  @import\a   sass\\main.scss 5:9               root stylesheet';
+  content: "Error: Undefined variable.\a    \2577 \a 34 \2502  $texto (\d\a    \2502  ^^^^^^\a    \2575 \a   sass\\reset\\_variables.scss 34:1  @import\a   sass\\main.scss 5:9               root stylesheet";
 }

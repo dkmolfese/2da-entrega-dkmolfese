@@ -7,13 +7,20 @@ body{
 .titulos{
     font-family: "Playfair Display", serif;
     font-weight: 100;
-    color: rgba(255, 255, 255, 0.61);
-    
+    color: $colorverde;
 }
+
 .all-p{   
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
-    margin-bottom: 2%;
-    
+    margin-top: 25px;
+    margin-right: 25px; 
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+.subtitulo{
+    display: flex;
+    align-items: center;
 }
