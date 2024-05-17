@@ -1,18 +1,93 @@
-/* Error: Undefined variable.
- *    ,
- * 34 | $texto (
- *    | ^^^^^^
- *    '
- *   sass\reset\_variables.scss 34:1  @import
- *   sass\main.scss 5:9               root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 34 \2502  $texto (\d\a    \2502  ^^^^^^\a    \2575 \a   sass\\reset\\_variables.scss 34:1  @import\a   sass\\main.scss 5:9               root stylesheet";
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Montserrat", sans-serif;
+  font-size: medium;
 }
+
+.menu-list li a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+header img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.nav-item {
+  font-size: medium;
+  font-weight: 400;
+  font-style: italic;
+  background-color: #708970;
+}
+
+.navbar-brand {
+  font-weight: 400;
+  font-style: italic;
+  color: rgb(207, 158, 94);
+}
+
+.nombrec {
+  display: flex;
+  align-self: center;
+}
+
+.ubitienda {
+  display: flex;
+  align-self: center;
+}
+
+.presentacion__another {
+  color: #708970;
+  text-align: center;
+  margin: margin-top 25px, margin-right 50px, margin-bottom 25px, margin-left 50px;
+  background-color: #d6d7dd;
+}
+.presentacion__another__text {
+  color: #707089;
+  margin: margin-top 25px, margin-right 50px, margin-bottom 25px, margin-left 50px;
+  text-align: center;
+  background-color: #d6d7dd;
+}
+
+.card {
+  border-radius: 10px;
+  color: #707089;
+  background-color: #bba998;
+  padding: 50px;
+  margin: 0px;
+}
+
+.pie {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.pie-columna {
+  flex: 1;
+  padding: 0 10px;
+  margin-top: 40px;
+  background-color: #8BA18B;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 240px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 430px) {
+  .card {
+    width: 240px;
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

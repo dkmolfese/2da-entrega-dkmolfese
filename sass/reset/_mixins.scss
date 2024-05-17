@@ -1,25 +1,16 @@
 //MIXINS - sin parametros
 
 @mixin background{
-    background-color: $colormarroncito;
-    height: 50px;
+    background-color: $colormarron;
+    height: 500px;
 }
 
 @mixin espacios{
-    padding: 2.5rem;
-    margin: 1.2rem;
+    padding: 50px;
+    margin: 0px;
 }
 
-// se llama al mixin:
-// @include espacios/background
-
-//mixin -con parametros
-
-@mixin spacios ($p, $m, $w, $h){
-    padding: $p;
-    margin: $m;
-    width: $w;
-    height: $h;
+@mixin ph{
+    margin: 25px 50px 25px 50px ;
+    background-color: #707089;
 }
-
-//

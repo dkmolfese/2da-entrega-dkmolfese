@@ -1,19 +1,33 @@
-//insertarmain//
-.tiposdecafe{
-    background-color: rgb(255, 255, 255);
+ .nombrec{
     display: flex;
-    flex-wrap: wrap;
-    
+    align-self: center;
 }
-    
-.nombrec{
+
+.ubitienda{
     display: flex;
-    align-items: start;
+    align-self: center;
 }
 
 
-.presentacion__another__text{
-    background-color: $color_triadro;
-    margin: $texto;
+.presentacion{
+    &__another{
+        color: $color_triadve;
+        text-align: center;
+        margin: $margen;
+        background-color: $colorgris;
+       
+    &__text{
+            color: $color_triadvi;
+            margin: $margen;
+            text-align: center;
+            background-color: $colorgris;
+       }
+    }
 }
 
+.card{
+    border-radius: 10px;
+    color: $color_triadvi;
+    background-color: $colormarroncito;
+    @include espacios
+}
