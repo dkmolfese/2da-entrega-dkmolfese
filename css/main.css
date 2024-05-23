@@ -77,6 +77,15 @@ header img {
   background-color: #8BA18B;
 }
 
+.vinetas {
+  list-style: none;
+  padding: 0%;
+}
+
+li {
+  text-decoration: none;
+}
+
 @media (max-width: 768px) {
   .card {
     width: 240px;
