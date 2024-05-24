@@ -1,20 +1,30 @@
 //tablet//
 @media (max-width:768px) {
-    .card{
+    .card {
         width: 240px;
         margin-bottom: 20px;
     }
-    
+
 }
 
 //mobile//
-@media (max-width:430px){
-    .card{
-        width: 240px;
-        margin-bottom: 20px;
+
+@media (max-width:576px) {
+    .card {
+        width: 240 px;
+        margin-bottom: 20 px;
+        border-radius: 10px;
+        color: $color_triadvi;
+        background-color: $colormarroncito;
+        @include espacios
     }
-    .pie{
-        
+
+    .pie {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
     }
 
 }
