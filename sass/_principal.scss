@@ -1,54 +1,53 @@
- .nombrec{
-    display: flex;
-    align-self: center;
-}
+ .nombrec {
+     display: flex;
+     align-self: center;
+ }
 
-.ubitienda{
-    display: flex;
-    align-self: center;
-}
+ .ubitienda {
+     display: flex;
+     align-self: center;
+ }
 
 
-.presentacion{
-    &__another{
-        color: $color_triadve;
-        text-align: center;
-        margin: $margen;
-        background-color: $colorgris;
-       
-    &__text{
-            color: $color_triadvi;
-            margin: $margen;
-            text-align: center;
-            background-color: $colorgris;
-       }
-    }
-}
+ .presentacion {
+     &__another {
+         color: $color_triadve;
+         text-align: center;
+         margin: $margen;
+         background-color: $colorgris;
 
-.card{
-    width: 50%;
-    border-radius: 5px;
-    color: $color_triadvi;
-    background-color: $colormarroncito;
-    @include espacios
-}
+         &__text {
+             color: $color_triadvi;
+             margin: $margen;
+             text-align: center;
+             background-color: $colorgris;
+         }
+     }
+ }
 
-.maps{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+ .card {
+     width: 50%;
+     border-radius: 5px;
+     color: $color_triadvi;
+     background-color: $colormarroncito;
+     @include espacios
+ }
 
-.spoty{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+ .maps {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
 
-.imagen{
-    width: 100%;
-    height: auto;
-}
+ .spoty {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
 
+ .imagen {
+     width: 100%;
+     height: auto;
+ }

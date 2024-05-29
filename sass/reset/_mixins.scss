@@ -1,16 +1,16 @@
 //MIXINS - sin parametros
 
-@mixin background{
+@mixin background {
     background-color: $colormarron;
     height: 500px;
 }
 
-@mixin espacios{
+@mixin espacios {
     padding: 50px;
     margin: 0px;
 }
 
-@mixin ph{
-    margin: 25px 50px 25px 50px ;
+@mixin ph {
+    margin: 25px 50px 25px 50px;
     background-color: #707089;
 }

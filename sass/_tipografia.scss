@@ -1,24 +1,22 @@
-body{
+body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: normal;
-    
+
 }
-.titulos{
+
+.titulos {
     @include ph
 }
 
-.all-p{   
+.all-p {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     margin: $margen;
 }
 
-.subtitulo{
+.subtitulo {
     display: flex;
     align-items: center;
 }
-
-
-
